@@ -1,0 +1,58 @@
+name: ui_whatsapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_native_splash: ^2.4.5
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: "^0.14.3"
+  flutter_lints: ^5.0.0
+  flutter_oss_licenses: ^3.0.4
+
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/logo.png"
+  min_sdk_android: 21 
+
+flutter_native_splash:
+  android_gravity: center
+  color: "#ffffff"  
+  image: assets/icons/logo.png 
+  color_dark: "#000000"  
+  image_dark: assets/icons/logo.png
+  android_12:
+    color: "#ffffff"  
+    image: assets/icons/logo.png
+    color_dark: "#000000"  
+    image_dark: assets/icons/logo.png
+
+  ios: true 
+  web: false
+ 
+flutter:
+
+  
+  uses-material-design: true
+
+  
+  assets:
+    - assets/icons/
+    - assets/licenses/
+    - assets/readme/
+
+ 
