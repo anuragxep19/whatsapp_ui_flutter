@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_whatsapp/view/loading_view.dart';
+import 'package:whatsapp_ui/view/loading_view.dart';
 
 class ProfileView extends StatelessWidget {
   const ProfileView({super.key});

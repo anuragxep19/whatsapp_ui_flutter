@@ -1,58 +1,81 @@
-name: ui_whatsapp
+# ---------------------------------------------
+# Project Info
+# ---------------------------------------------
+name: whatsapp_ui
 description: "A new Flutter project."
 publish_to: 'none'
 version: 1.0.0+1
 
+# ---------------------------------------------
+# Environment
+# ---------------------------------------------
 environment:
   sdk: ^3.7.2
 
+# ---------------------------------------------
+# Dependencies
+# ---------------------------------------------
 dependencies:
   flutter:
     sdk: flutter
 
-  flutter_native_splash: ^2.4.5
+  # Icons and UI
   cupertino_icons: ^1.0.8
 
+  # Splash Screen Generator
+  flutter_native_splash: ^2.4.5
+
+# ---------------------------------------------
+# Dev Dependencies
+# ---------------------------------------------
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_launcher_icons: "^0.14.3"
+  # Lint rules for code quality
   flutter_lints: ^5.0.0
+
+  # App launcher icon generator
+  flutter_launcher_icons: ^0.14.3
+
+  # OSS license generator
   flutter_oss_licenses: ^3.0.4
 
-
-
+# ---------------------------------------------
+# Flutter Launcher Icons Configuration
+# ---------------------------------------------
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
   image_path: "assets/icons/logo.png"
-  min_sdk_android: 21 
+  min_sdk_android: 21
 
+# ---------------------------------------------
+# Flutter Native Splash Configuration
+# ---------------------------------------------
 flutter_native_splash:
   android_gravity: center
-  color: "#ffffff"  
-  image: assets/icons/logo.png 
-  color_dark: "#000000"  
+  color: "#ffffff"
+  image: assets/icons/logo.png
+  color_dark: "#000000"
   image_dark: assets/icons/logo.png
+
   android_12:
-    color: "#ffffff"  
+    color: "#ffffff"
     image: assets/icons/logo.png
-    color_dark: "#000000"  
+    color_dark: "#000000"
     image_dark: assets/icons/logo.png
 
-  ios: true 
+  ios: true
   web: false
- 
-flutter:
 
-  
+# ---------------------------------------------
+# Flutter Configuration
+# ---------------------------------------------
+flutter:
   uses-material-design: true
 
-  
   assets:
     - assets/icons/
     - assets/licenses/
     - assets/readme/
-
- 

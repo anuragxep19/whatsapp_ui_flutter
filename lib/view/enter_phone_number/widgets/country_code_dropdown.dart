@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_whatsapp/constants/country_codes.dart';
+import 'package:whatsapp_ui/constants/country_codes.dart';
 
 class CountryCodeDropdownScreen extends StatefulWidget {
   const CountryCodeDropdownScreen({super.key});

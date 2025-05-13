@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ui_whatsapp/view/language/widgets/language_selector.dart';
-import 'package:ui_whatsapp/view/welcome/welcome_view.dart';
+import 'package:whatsapp_ui/view/language/widgets/language_selector.dart';
+import 'package:whatsapp_ui/view/welcome/welcome_view.dart';
 
 class LanguageView extends StatelessWidget {
   const LanguageView({super.key});

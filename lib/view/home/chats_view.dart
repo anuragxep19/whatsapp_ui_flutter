@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_whatsapp/view/home/widgets/custom_tile.dart';
+import 'package:whatsapp_ui/view/home/widgets/custom_tile.dart';
 
 class ChatsView extends StatelessWidget {
   const ChatsView({super.key});

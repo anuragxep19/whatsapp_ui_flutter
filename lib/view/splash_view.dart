@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_whatsapp/view/language/language_view.dart';
+import 'package:whatsapp_ui/view/language/language_view.dart';
 
 class SplashView extends StatelessWidget {
   const SplashView({super.key});

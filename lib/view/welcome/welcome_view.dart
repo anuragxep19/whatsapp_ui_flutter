@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ui_whatsapp/view/enter_phone_number/enter_phone_number_view.dart';
-import 'package:ui_whatsapp/view/welcome/widgets/language_popup_selector.dart';
+import 'package:whatsapp_ui/view/enter_phone_number/enter_phone_number_view.dart';
+import 'package:whatsapp_ui/view/welcome/widgets/language_popup_selector.dart';
 
 class WelcomeView extends StatelessWidget {
   const WelcomeView({super.key});

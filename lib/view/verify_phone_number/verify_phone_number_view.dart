@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ui_whatsapp/view/profile_view.dart';
-import 'package:ui_whatsapp/view/verify_phone_number/widgets/o_t_p_field.dart';
+import 'package:whatsapp_ui/view/profile_view.dart';
+import 'package:whatsapp_ui/view/verify_phone_number/widgets/o_t_p_field.dart';
 
 class VerifyPhoneNumberView extends StatelessWidget {
   const VerifyPhoneNumberView({super.key});

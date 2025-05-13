@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ui_whatsapp/view/enter_phone_number/widgets/country_code_dropdown.dart';
-import 'package:ui_whatsapp/view/verify_phone_number/verify_phone_number_view.dart';
+import 'package:whatsapp_ui/view/enter_phone_number/widgets/country_code_dropdown.dart';
+import 'package:whatsapp_ui/view/verify_phone_number/verify_phone_number_view.dart';
 
 class EnterPhoneNumberView extends StatelessWidget {
   const EnterPhoneNumberView({super.key});

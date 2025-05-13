@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:ui_whatsapp/view/home/calls_view.dart';
-import 'package:ui_whatsapp/view/home/chats_view.dart';
-import 'package:ui_whatsapp/view/home/community_view.dart';
-import 'package:ui_whatsapp/view/home/updates_view.dart';
+import 'package:whatsapp_ui/view/home/calls_view.dart';
+import 'package:whatsapp_ui/view/home/chats_view.dart';
+import 'package:whatsapp_ui/view/home/community_view.dart';
+import 'package:whatsapp_ui/view/home/updates_view.dart';
 
 class HomeBottomNavigationBar extends StatefulWidget {
   const HomeBottomNavigationBar({super.key});

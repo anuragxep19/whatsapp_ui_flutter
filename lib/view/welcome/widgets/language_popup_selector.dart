@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_whatsapp/constants/languages.dart';
+import 'package:whatsapp_ui/constants/languages.dart';
 
 class LanguagePopupSelector extends StatefulWidget {
   const LanguagePopupSelector({super.key});

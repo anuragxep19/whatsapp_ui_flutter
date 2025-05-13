@@ -1,9 +1,9 @@
-# Ui_whatsapp
+# Whatsapp_ui
 
 ![Flutter](https://img.shields.io/badge/flutter-3.19.2-blue.svg)
 [![LICENSE](https://img.shields.io/badge/LICENSE-MIT-blue.svg)](LICENSE)
 
-Ui_whatsapp is a Flutter-based user interface recreation of WhatsApp’s onboarding and core layout experience.
+Whatsapp_ui is a Flutter-based user interface recreation of WhatsApp’s onboarding and core layout experience.
 This project was built to practice Flutter’s widget layout, screen navigation, and clean UI structure.
 It features custom tap (forward) & double-tap (back) navigation for prototyping.
 
@@ -26,8 +26,8 @@ It features custom tap (forward) & double-tap (back) navigation for prototyping.
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/anuragep19/ui_whatsapp-flutter.git
-   cd ui_whatsapp-flutter
+   git clone https://github.com/anuragxep19/whatsapp_ui_flutter.git
+   cd whatsapp_ui_flutter
    ```
 
 1. **Install dependencies**:
@@ -48,7 +48,7 @@ It features custom tap (forward) & double-tap (back) navigation for prototyping.
 
 ```tree
 
-Ui_whatsapp/
+Whatsapp_ui/
 ├── lib/
 │   ├── constants/               # Static values like country codes, language list
 │   ├── view/                    # All UI screens and components
@@ -164,6 +164,6 @@ Ui_whatsapp/
 ## Author
 
 **Anurag E P**  
-[GitHub: @anuragep19](https://github.com/anuragep19)  
+[GitHub: @anuragxep19](https://github.com/anuragxep19)  
 
 ---

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_whatsapp/view/home/home_bottom_navigation_bar.dart';
+import 'package:whatsapp_ui/view/home/home_bottom_navigation_bar.dart';
 
 class LoadingView extends StatelessWidget {
   const LoadingView({super.key});

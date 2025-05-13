@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_whatsapp/view/splash_view.dart';
+import 'package:whatsapp_ui/view/splash_view.dart';
 
 void main() {
   runApp(MyApp());
